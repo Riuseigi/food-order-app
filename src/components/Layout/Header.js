@@ -4,6 +4,7 @@ import classes from './Header.module.css'
 
 const Header = (props) => {
   return (
+    // Header Section Component
     <Fragment>
         <header className={classes.header}>
             <h1>Jollikod</h1>
