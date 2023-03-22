@@ -5,26 +5,26 @@ import MealItem from './MealItem/MealItem';
 const DUMMY_MEALS = [
   {
     id: 'm1',
-    name: 'Sushi',
-    description: 'Finest fish and veggies',
+    name: 'Adobong Manok',
+    description: 'Fresh na chicken na inadobo',
     price: 22.99,
   },
   {
     id: 'm2',
-    name: 'Schnitzel',
-    description: 'A german specialty!',
+    name: 'Lumpiang Shanghai',
+    description: 'Laging binibulsa tuwing may handaan at paboritong lahat',
     price: 16.5,
   },
   {
     id: 'm3',
-    name: 'Barbecue Burger',
-    description: 'American, raw, meaty',
+    name: 'Sizzling Sisig ',
+    description: 'Sa sobrang init, mapapaso ang iyong sa bibig sa sobrang sarap',
     price: 12.99,
   },
   {
     id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
+    name: 'Pinakbet',
+    description: 'Sari saring gulay na ginisa',
     price: 18.99,
   },
 ];
