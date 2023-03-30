@@ -7,6 +7,13 @@ const defaultCartState = {
   totalAmount: 0
 };
 
+/**
+ * If the action type is ADD, then add the item to the cart, if the action type is REMOVE, then remove
+ * the item from the cart.
+ * @param state - the current state of the cart
+ * @param action - {type: 'ADD', item: {id: '1', title: 'test', price: 10, amount: 1}}
+ * @returns The updated state of the cart.
+ */
 const cartReducer = (state, action) => {
   if (action.type === 'ADD') {
     const updatedTotalAmount =
